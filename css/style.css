@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* HEADER */
+
+header{
+    display: grid;
+    background-image: url("./imagenes/fondos\ header/fondo1.png");
+}
+
+/* NAV BAR */
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    text-align: center;
+    text-decoration-line: none;
+    justify-content: space-between;
+    font-size: 30px;
+    margin: auto;
+    padding: 10px 50px;
+
+}
+
+.toogler-mio-icono{
+    background-image: url('./imagenes/favicon.png');
+}
+
+.toogler-mio{
+    border-radius: 0%;
+}
+
+/* ICONOS LOGIN, CARRITO */
+
+.iconosheader{
+    display: flex;
+    justify-content: right;
+    padding-top: 10px;
+    margin-right: 10px;
+}
+
+/* ICONOS REDES SOC. HEADER */
+
+.redesheader{
+    display: grid;
+    justify-content: right;
+    margin-right: 10px;
+
+}
+
+/* H1 TÍTULO */
+
+h1{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 200px;
+    padding: 150px 50px 100px 50px;
+}
+
+/* H2 DESCR. LAMP. DE DISEÑO */
+
+.h2header{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+}
+
+/* TENDENCIAS */
+
+.h2main{
+    text-align: center;
+    text-decoration: none;
+    padding: 50px;
+    font-size: 40px;
+}
+
+/* SEC. INSPIRACION */
+
+.grid-layout{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+@media (max-width:576px){
+    .grid-layout{
+        grid-template-columns: auto auto;
+    }
+
+}
+    
+
+.imagen-inspiracion{
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+}
+
+
+/* TIENDA */
+
+.h2tienda{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+}
+
+.grid-tienda{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.tarjeta-texto{
+    text-align: center;
+}
+
+.boton-tienda{
+    background-color: rgb(202, 203, 204);
+    text-decoration-color: black;
+    font-weight: 200;
+    text-align: center;
+}
+
+.boton{
+    border-radius: 0%;
+}
+
+.boton:hover{
+    background-color: black;
+    border-color: black;
+    border-radius: 0%;
+}
+
+.tarjeta-tienda1{
+    width: 300px;
+    height: 500px;
+    margin: 15px;
+}
+
+.cajatienda{
+    display: inline;
+}
+
+
+
+
+
+
+/* FOOTER */
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: "caja1 caja2 caja3 caja4";
+    background-color: rgb(229, 229, 229);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.footer-caja1{
+    grid-area: caja1;
+    padding: 50px 10px;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.footer-caja2{
+    grid-area: caja2;
+    padding: 50px 10px;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.footer-caja3{
+    grid-area: caja3;
+    padding: 50px 10px;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.footer-caja4{
+    grid-area: caja4;
+    padding: 50px 10px;
+    margin: 20px;
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;;
+}
+
+.caja1{
+    display: grid;
+    justify-content: left;
+}
+
+.tarjetas-credito{
+    display: grid;
+    grid-template-rows: 1fr;
+    align-items: center;
+
+}
+
+.divh5{
+    display: grid;
+    grid-row: 1fr;
+    align-items: center;
+    font-size: 10px;
+}
+
+@media (max-width: 576px){
+
+
+}
+
+/* PAGINA CARRITO */
+
+.carrusel-carrito{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(5, 200px);
+    grid-template-areas: carrusel nombre desc divcar;
+}
+
+.carrusel-img{
+    grid-area: carrusel;
+
+}
+
+.nombre-prod{
+    grid-area: nombre;
+}
+
+.desc-prod{
+    grid-area: desc;
+}
+
+.div-carrito{
+    grid-area: divcar;
+}
+
