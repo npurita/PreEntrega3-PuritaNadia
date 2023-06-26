@@ -266,3 +266,59 @@ ul li{
     grid-area: divcar;
 }
 
+/* PAGINA INSPIRACION (GALERIA DE FOTOS)*/
+
+.grid-galeria{
+    display: grid;
+    grid-template-columns: 3 auto;
+    grid-template-rows: 4 auto;
+    grid-template-areas: imalamp1 imalamp2 imalamp3 imalamp4 imalamp5 imalamp6 imalamp7 imalamp8 imalamp9 imalamp10 imalamp11 imalamp12;
+}
+
+.inspimg1{
+    grid-area: imalamp1;
+}
+
+.inspimg2{
+    grid-area: imalamp2;
+} 
+
+.inspimg3{
+    grid-area: imalamp3;
+}
+
+.inspimg4{
+    grid-area: imalamp4;
+}
+
+.inspimg5{
+    grid-area: imalamp5;
+}
+
+.inspimg6{
+    grid-area: imalamp6;
+}
+
+.inspimg7{
+    grid-area: imalamp7;
+}
+
+.inspimg8{
+    grid-area: imalamp8;
+}
+
+.inspimg9{
+    grid-area: imalamp9;
+}
+
+.inspimg10{
+    grid-area: imalamp10;
+}
+
+.inspimg11{
+    grid-area: imalamp11;
+}
+
+.inspimg12{
+    grid-area: imalamp12;
+}
