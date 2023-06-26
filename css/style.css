@@ -128,19 +128,25 @@ h1{
 }
 
 .boton-tienda{
-    background-color: rgb(202, 203, 204);
-    text-decoration-color: black;
+    background-color: black;
+    text-decoration-color: white;
+    border-color: black;
     font-weight: 200;
     text-align: center;
+    align-items: center;
 }
 
 .boton{
     border-radius: 0%;
+    border-color: none;
+    align-items: center;
+
 }
 
 .boton:hover{
-    background-color: black;
-    border-color: black;
+    background-color: lightgrey;
+    border-color: lightgray;
+    text-decoration-color: black;
     border-radius: 0%;
 }
 
@@ -150,10 +156,18 @@ h1{
     margin: 15px;
 }
 
+.tarjeta-body{
+    align-items: center;
+    border-radius: 0%;
+}
+
 .cajatienda{
     display: inline;
 }
 
+.t-titulo{
+    text-align: center;
+}
 
 
 
@@ -165,9 +179,10 @@ h1{
     display: grid;
     grid-template-columns: repeat(4, auto);
     grid-template-rows: repeat(4, auto);
-    grid-template-areas: "caja1 caja2 caja3 caja4";
+    grid-template-areas: "cajaredes caja1 caja2 caja3";
     background-color: rgb(229, 229, 229);
     text-decoration: none;
+    font-size: 12px;
     font-size: 20px;
 }
 
@@ -192,11 +207,11 @@ h1{
     text-decoration: none;
 }
 
-.footer-caja4{
-    grid-area: caja4;
+.footer-cajaredes{
+    grid-area: cajaredes;
     padding: 50px 10px;
     margin: 20px;
-    text-decoration: none;
+    align-items: center;
 }
 
 ul li{
@@ -223,8 +238,6 @@ ul li{
 }
 
 @media (max-width: 576px){
-
-
 }
 
 /* PAGINA CARRITO */
