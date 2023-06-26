@@ -272,7 +272,6 @@ ul li{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    width: 100%;
     grid-template-areas: imalamp1 imalamp2 imalamp3 imalamp4 imalamp5 imalamp6 imalamp7 imalamp8 imalamp9 imalamp10 imalamp11 imalamp12;
     object-fit: cover;
 }
