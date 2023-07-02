@@ -3,5 +3,10 @@
 @import './abstract/mapa';
 @import './abstract/mixins';
 
+
+@import './componentes/cards';
 @import './componentes/footer';
 
+body{
+    $font-main
+}
