@@ -1,10 +1,3 @@
-/* Error: expected ";".
- *   ,
- * 8 | body{
- *   |     ^
- *   '
- *   scss\style.scss 8:5  root stylesheet */
-
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
       "Droid Sans Mono", monospace, monospace;
