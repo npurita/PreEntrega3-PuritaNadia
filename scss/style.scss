@@ -8,5 +8,6 @@
 @import './componentes/footer';
 
 body{
-    $font-main
+    font-family: $font-main;
+    text-decoration-color: $color-texts
 }

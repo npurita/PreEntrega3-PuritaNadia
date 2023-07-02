@@ -1,0 +1,6 @@
+@mixin tarjetas($borde, $radio, $bg-color){
+    border: $borde;
+    border-radius: $radio;
+    background-color: $bg-color;
+
+}
