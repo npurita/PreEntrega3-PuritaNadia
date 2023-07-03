@@ -4,3 +4,10 @@
     grid-template-rows: auto;
     
 }
+
+@media(max-width: 576px){
+    .grid-tienda{
+        grid-template-columns: 1fr;
+    }
+}
+    
