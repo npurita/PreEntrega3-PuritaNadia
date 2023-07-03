@@ -1,0 +1,25 @@
+header{
+    background-color: $color-fondos;
+    padding-bottom: 80px;
+    h2{
+        font-size: 30px;
+    }
+}
+
+h1{
+    text-align: center;
+    font-size: 200px;
+}
+
+
+
+
+
+.iconosheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-top: 5px;
+    padding: 8px;
+    column-gap: 8px;
+}

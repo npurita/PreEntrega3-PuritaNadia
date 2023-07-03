@@ -9,7 +9,9 @@
 
 body{
     font-family: $font-main;
-    text-decoration-color: $color-texts
+    text-decoration-color: $color-texts;
+    margin: 0;
+    padding: 0;
 }
 
 a:link{
