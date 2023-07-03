@@ -1,7 +1,7 @@
 .footer-grid{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: caja1 caja2 caja3;
     background-color: $color-fondos2;
 }
