@@ -1,190 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300&display=swap" rel="stylesheet"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css"/>
-    <link rel="shortcut icon" href="../imagenes/favicon.png" type="image/x-icon">
-    <title>NØRTE Tienda</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="shortcut icon" href="../imagenes/favicon.png" type="image/x-icon">
+  <title>NØRTE Tienda</title>
 </head>
+
 <body>
-    <header>
+  <header>
 
-        <div class="iconosheader">
-            <a target="_blank" href="#"><img src="../imagenes/login.png" alt=""></a>
-            <a target="_blank" href="../paginas/carrito.html"><img src="../imagenes/carrito.png" alt=""></a>
+    <div class="iconosheader">
+      <a target="_blank" href="#"><img src="../imagenes/login.png" alt=""></a>
+      <a target="_blank" href="../paginas/carrito.html"><img src="../imagenes/carrito.png" alt=""></a>
+    </div>
+
+    <a href="../index.html">
+      <h1>NØRTE</h1>
+    </a>
+    <h2 class="h2header">lámparas de diseño</h2>
+  </header>
+
+  <section class="grid-navbar">
+    <div class="navbar">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button class="navbar-toggler toogler-mio" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon toogler-mio-icono"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./tienda.html">Tienda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../paginas/inspiracion.html">Inspiración</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../paginas/personaliza.html">Personalizá</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../paginas/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
+    </div>
+  </section>
 
-        <a href="../index.html"><h1>NØRTE</h1></a>
-        <h2 class="h2header">lámparas de diseño</h2>
-    </header>
-
-      <section class="grid-navbar">
-        <div class="navbar">
-          <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-              <button class="navbar-toggler toogler-mio" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon toogler-mio-icono"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="../index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./tienda.html">Tienda</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../paginas/inspiracion.html">Inspiración</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../paginas/personaliza.html">Personalizá</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../paginas/contacto.html">Contacto</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+  <main>
+    <h2 class="h2main">Tienda</h2>
+    <div class="grid-tienda">
+      <div class="tarjeta-tienda1">
+        <div class="card" style="width: 18rem;">
+          <img src="../imagenes/tiendapreview1.png" class="card-img-top" alt="imagen tienda">
+          <div class="card-body">
+            <h5 class="card-title">Lámpara de hilo</h5>
+            <p class="card-text">lampara de hilo de algodón</p>
+            <a href="#" class="btn btn-primary boton boton-tienda">Añadir al carrito</a>
+          </div>
         </div>
-      </section>
+      </div>
 
-    <main>
-        <h2 class="h2main">Tienda</h2>
-       <div class="grid-tienda">
-           <div class="tarjeta-tienda1">
-            <div class="card" style="width: 18rem;">
-              <img src="../imagenes/tiendapreview1.png" class="card-img-top" alt="imagen tienda">
-              <div class="card-body">
-                <h5 class="card-title">Lámpara de hilo</h5>
-                <p class="card-text">lampara de hilo de algodón</p>
-                <a href="#" class="btn btn-primary boton boton-tienda">Añadir al carrito</a>
-              </div>
-            </div>
-           </div>
-
-           <div class="tarjeta-tienda1">
-            <div class="card" style="width: 18rem;">
-              <img src="../imagenes/tiendapreview2.png" class="card-img-top" alt="imagen tienda">
-              <div class="card-body">
-                <h5 class="card-title">Lámpara de hilo</h5>
-                <p class="card-text">lampara de hilo de algodón</p>
-                <a href="#" class="btn btn-primary boton boton-tienda">Añadir al carrito</a>
-              </div>
-            </div>
-           </div>
-
-           <div class="tarjeta-tienda1">
-            <div class="card" style="width: 18rem;">
-              <img src="../imagenes/tiendapreview3.png" class="card-img-top" alt="imagen tienda">
-              <div class="card-body">
-                <h5 class="card-title">Lámpara de hilo</h5>
-                <p class="card-text tarjeta-texto">lampara de yute</p>
-                <a href="#" class="btn btn-primary boton boton-tienda">Añadir al carrito</a>
-              </div>
-            </div>
-           </div>
-
-           <div class="tarjeta-tienda1">
-            <div class="card" style="width: 18rem;">
-              <img src="../imagenes/tiendapreview4.png" class="card-img-top" alt="imagen tienda">
-              <div class="card-body">
-                <h5 class="card-title">Lámpara de hilo</h5>
-                <p class="card-text">lampara de yute</p>
-                <a href="#" class="btn btn-primary boton boton-tienda">Añadir al carrito</a>
-              </div>
-            </div>
-           </div>
+      <div class="tarjeta-tienda1">
+        <div class="card" style="width: 18rem;">
+          <img src="../imagenes/tiendapreview2.png" class="card-img-top" alt="imagen tienda">
+          <div class="card-body">
+            <h5 class="card-title">Lámpara de hilo</h5>
+            <p class="card-text">lampara de hilo de algodón</p>
+            <a href="#" class="btn btn-primary boton boton-tienda">Añadir al carrito</a>
+          </div>
         </div>
+      </div>
 
-        <div class="grid-tienda">
-            <div class="tarjeta-tienda1">
-             <div class="card" style="width: 18rem;">
-               <img src="../imagenes/tiendapreview1.png" class="card-img-top" alt="imagen tienda">
-               <div class="card-body">
-                 <h5 class="card-title">Lámpara de hilo</h5>
-                 <p class="card-text">lampara de hilo de algodón</p>
-                 <a href="#" class="btn btn-primary boton boton-tienda">Añadir al carrito</a>
-               </div>
-             </div>
-            </div>
- 
-            <div class="tarjeta-tienda1">
-             <div class="card" style="width: 18rem;">
-               <img src="../imagenes/tiendapreview2.png" class="card-img-top" alt="imagen tienda">
-               <div class="card-body">
-                 <h5 class="card-title">Lámpara de hilo</h5>
-                 <p class="card-text">lampara de hilo de algodón</p>
-                 <a href="#" class="btn btn-primary boton boton-tienda">Añadir al carrito</a>
-               </div>
-             </div>
-            </div>
- 
-            <div class="tarjeta-tienda1">
-             <div class="card" style="width: 18rem;">
-               <img src="../imagenes/tiendapreview3.png" class="card-img-top" alt="imagen tienda">
-               <div class="card-body">
-                 <h5 class="card-title">Lámpara de hilo</h5>
-                 <p class="card-text tarjeta-texto">lampara de yute</p>
-                 <a href="#" class="btn btn-primary boton boton-tienda">Añadir al carrito</a>
-               </div>
-             </div>
-            </div>
- 
-            <div class="tarjeta-tienda1">
-             <div class="card" style="width: 18rem;">
-               <img src="../imagenes/tiendapreview4.png" class="card-img-top" alt="imagen tienda">
-               <div class="card-body">
-                 <h5 class="card-title">Lámpara de hilo</h5>
-                 <p class="card-text">lampara de yute</p>
-                 <a href="#" class="btn btn-primary boton boton-tienda">Añadir al carrito</a>
-               </div>
-             </div>
-            </div>
-         </div>
-    </main>
-
-   
-    <footer class="footer-grid">
-        <ul class="footer-caja1">
-            <li>Iniciar Sesión</li>
-            <li>Registrarse</li>
-            <li>Política de privacidad</li>
-            <li>Términos y condiciones</li>
-        </ul>
-        <ul class="footer-caja2">
-            <li><a target="_blank" href="./paginas/carrito.html">Carrito</a></li>
-            <li>Costos de envío</li>
-            <li>Métodos de pago</li>
-            <li>Promociones</li>
-        </ul>
-        <ul class="footer-caja3">
-            <li>Dirección: Argentina</li>
-            <li><a target="_blank" href="https://web.whatsapp.com/">Whatsapp</a></li>
-            <li>mail@contacto.com</li>
-        </ul>
-
-        <div class="footer-caja4">
-          <a target="_blank" href="https://www.facebook.com/"><img src="../imagenes/facebookicon.png" alt="logo de facebook"></a>
-          <a target="_blank" href="https://www.instagram.com/"><img src="../imagenes/instagram.png" alt="logo de instagram"></a>
+      <div class="tarjeta-tienda1">
+        <div class="card" style="width: 18rem;">
+          <img src="../imagenes/tiendapreview3.png" class="card-img-top" alt="imagen tienda">
+          <div class="card-body">
+            <h5 class="card-title">Lámpara de hilo</h5>
+            <p class="card-text tarjeta-texto">lampara de yute</p>
+            <a href="#" class="btn btn-primary boton boton-tienda">Añadir al carrito</a>
+          </div>
         </div>
+      </div>
 
-        <div class="tarjetas-credito">
-          <img src="../imagenes/visa.png" alt="logo tarjeta visa">
-          <img src="../imagenes/tarjeta.png" alt="logo tarjeta de credito">
+      <div class="tarjeta-tienda1">
+        <div class="card" style="width: 18rem;">
+          <img src="../imagenes/tiendapreview4.png" class="card-img-top" alt="imagen tienda">
+          <div class="card-body">
+            <h5 class="card-title">Lámpara de hilo</h5>
+            <p class="card-text">lampara de yute</p>
+            <a href="#" class="btn btn-primary boton boton-tienda">Añadir al carrito</a>
+          </div>
         </div>
-        
-       
-        <div class="divh5">
-          <h5>© Copyright NØRTE Lámparas de diseño - 2023</h5>
+      </div>
+    </div>
+
+    <div class="grid-tienda">
+      <div class="tarjeta-tienda1">
+        <div class="card" style="width: 18rem;">
+          <img src="../imagenes/tiendapreview1.png" class="card-img-top" alt="imagen tienda">
+          <div class="card-body">
+            <h5 class="card-title">Lámpara de hilo</h5>
+            <p class="card-text">lampara de hilo de algodón</p>
+            <a href="#" class="btn btn-primary boton boton-tienda">Añadir al carrito</a>
+          </div>
         </div>
-    </footer>
+      </div>
+
+      <div class="tarjeta-tienda1">
+        <div class="card" style="width: 18rem;">
+          <img src="../imagenes/tiendapreview2.png" class="card-img-top" alt="imagen tienda">
+          <div class="card-body">
+            <h5 class="card-title">Lámpara de hilo</h5>
+            <p class="card-text">lampara de hilo de algodón</p>
+            <a href="#" class="btn btn-primary boton boton-tienda">Añadir al carrito</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="tarjeta-tienda1">
+        <div class="card" style="width: 18rem;">
+          <img src="../imagenes/tiendapreview3.png" class="card-img-top" alt="imagen tienda">
+          <div class="card-body">
+            <h5 class="card-title">Lámpara de hilo</h5>
+            <p class="card-text tarjeta-texto">lampara de yute</p>
+            <a href="#" class="btn btn-primary boton boton-tienda">Añadir al carrito</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="tarjeta-tienda1">
+        <div class="card" style="width: 18rem;">
+          <img src="../imagenes/tiendapreview4.png" class="card-img-top" alt="imagen tienda">
+          <div class="card-body">
+            <h5 class="card-title">Lámpara de hilo</h5>
+            <p class="card-text">lampara de yute</p>
+            <a href="#" class="btn btn-primary boton boton-tienda">Añadir al carrito</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <footer class="footer-grid">
+
+    <div class="footer-cajaredes">
+      <a target="_blank" href="https://www.facebook.com/"><img src="../imagenes/facebookicon.png"alt="logo de facebook"></a>
+      <a target="_blank" href="https://www.instagram.com/"><img src="../imagenes/instagram.png"Salt="logo de instagram"></a>
+    </div>
+
+    <ul class="footer-caja1">
+      <li>Iniciar Sesión</li>
+      <li>Registrarse</li>
+      <li>Política de privacidad</li>
+      <li>Términos y condiciones</li>
+    </ul>
+    <ul class="footer-caja2">
+      <li><a target="_blank" href="./paginas/carrito.html">Carrito</a></li>
+      <li>Costos de envío</li>
+      <li>Métodos de pago</li>
+      <li>Promociones</li>
+    </ul>
+    <ul class="footer-caja3">
+      <li>Dirección: Argentina</li>
+      <li><a target="_blank" href="https://web.whatsapp.com/">Whatsapp</a></li>
+      <li>mail@contacto.com</li>
+    </ul>
+
+
+
+    <div class="tarjetas-credito">
+      <img src="./imagenes/visa.png" alt="logo tarjeta visa">
+      <img src="./imagenes/tarjeta.png" alt="logo tarjeta de credito">
+    </div>
+
+
+    <div class="divh5">
+      <h5>© Copyright NØRTE Lámparas de diseño - 2023</h5>
+    </div>
+  </footer>
 
 
 
@@ -197,6 +206,9 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
