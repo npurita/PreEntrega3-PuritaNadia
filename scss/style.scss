@@ -3,11 +3,21 @@
 @import './abstract/mapa';
 @import './abstract/mixins';
 
-
+@import './componentes/header';
 @import './componentes/cards';
 @import './componentes/footer';
 
 body{
     font-family: $font-main;
     text-decoration-color: $color-texts
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
 }
