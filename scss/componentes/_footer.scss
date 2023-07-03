@@ -1,7 +1,24 @@
 .footer-grid{
     display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: caja1 caja2 caja3;
     background-color: $color-fondos2;
 }
+
+.footer-caja1{
+    grid-area: caja1;
+}
+
+.footer-caja2{
+    grid-area: caja2;
+}
+
+.footer-caja3{
+    grid-area: caja3;
+}
+
+
 
 .footer-cajaredes{
     display: grid;

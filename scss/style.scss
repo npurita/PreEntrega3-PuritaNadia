@@ -18,9 +18,13 @@ a:link{
     color: black;
 }
 
+
 h2{
     @extend %titulo-principal;
     font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
 }
 
 @media(max-width: 576px){
