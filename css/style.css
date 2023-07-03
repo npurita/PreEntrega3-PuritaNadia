@@ -1,3 +1,7 @@
+.navegacion, h2, h1 {
+  text-align: center;
+}
+
 header {
   background-color: #ede8e4;
   padding-bottom: 80px;
@@ -15,7 +19,6 @@ header h2 {
   }
 }
 h1 {
-  text-align: center;
   font-size: 200px;
 }
 
@@ -65,7 +68,6 @@ a:link {
 }
 
 h2 {
-  text-align: center;
   font-size: 50px;
 }
 
@@ -88,7 +90,6 @@ h2 {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   font-size: 30px;
-  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
