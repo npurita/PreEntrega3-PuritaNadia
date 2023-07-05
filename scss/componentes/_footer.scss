@@ -1,24 +1,14 @@
-.footer-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: caja1 caja2 caja3;
+.footer{
     background-color: $color-fondos2;
 }
 
-.footer-caja1{
-    grid-area: caja1;
+.footer-grid{
+    display: grid;
+    background-color: $color-fondos2;
+    ul{
+        list-style: none;
+    }
 }
-
-.footer-caja2{
-    grid-area: caja2;
-}
-
-.footer-caja3{
-    grid-area: caja3;
-}
-
-
 
 .footer-cajaredes{
     display: grid;
@@ -27,5 +17,11 @@
     column-gap: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     justify-content: center;
+    background-color: $color-fondos2;
 }
+
+
+

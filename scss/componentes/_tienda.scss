@@ -10,4 +10,20 @@
         grid-template-columns: 1fr;
     }
 }
-    
+
+.boton-ir-tienda{
+    margin: 50px;
+    padding: auto;
+}
+
+.btn-tienda{
+    background-color: $color-fondos2;
+    border-radius: 0;
+    border-color: $color-fondos2;
+    font-size: 20px;
+    font-weight: 300;
+    &:hover{
+        background-color: $color-fondos3;
+        border-color: $color-fondos3;
+    }
+}
