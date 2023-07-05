@@ -1,114 +1,18 @@
-.navegacion, h2, h1 {
-  text-align: center;
-}
+/* Error: expected "{".
+ *    ,
+ * 24 |     @media(max-width: 576px)
+ *    |                             ^
+ *    '
+ *   scss\componentes\_contacto.scss 24:29  @import
+ *   scss\style.scss 7:9                    root stylesheet */
 
-header {
-  background-color: #ede8e4;
-  padding-bottom: 80px;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a    \2577 \a 24 \2502      @media(max-width: 576px)\a    \2502                              ^\a    \2575 \a   scss\\componentes\\_contacto.scss 24:29  @import\a   scss\\style.scss 7:9                    root stylesheet';
 }
-header h2 {
-  font-size: 30px;
-}
-
-@media (max-width: 576px) {
-  header h1 {
-    font-size: 20px;
-  }
-  header h2 {
-    font-size: 15px;
-  }
-}
-h1 {
-  font-size: 200px;
-}
-
-.iconosheader {
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
-  margin-top: 5px;
-  padding: 8px;
-  column-gap: 8px;
-}
-
-.grid-tienda {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto;
-}
-
-@media (max-width: 576px) {
-  .grid-tienda {
-    grid-template-columns: 1fr;
-  }
-}
-.footer-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: caja1 caja2 caja3;
-  background-color: #e2e2e2;
-}
-
-.footer-caja1 {
-  grid-area: caja1;
-}
-
-.footer-caja2 {
-  grid-area: caja2;
-}
-
-.footer-caja3 {
-  grid-area: caja3;
-}
-
-.footer-cajaredes {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto;
-  column-gap: 50px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  justify-content: center;
-}
-
-body {
-  font-family: "Josefin Sans", sans-serif;
-  text-decoration-color: rgba(0, 0, 0, 0);
-}
-
-a:link {
-  text-decoration: none;
-  color: black;
-}
-
-h2 {
-  font-size: 50px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-@media (max-width: 576px) {
-  h2 {
-    font-size: 25px;
-  }
-}
-/* TOGGLER */
-.toogler-mio-icono {
-  background-image: url("../imagenes/favicon.png");
-}
-
-.toogler-mio {
-  border-radius: 0%;
-}
-
-/* NAV BAR */
-.navegacion {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  font-size: 30px;
-}
-
-/* CONTACTO */
-
-/*# sourceMappingURL=style.css.map */

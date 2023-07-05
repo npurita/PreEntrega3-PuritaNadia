@@ -4,6 +4,7 @@
 @import './abstract/mixins';
 
 @import './componentes/header';
+@import './componentes/contacto';
 @import './componentes/cards';
 @import './componentes/tienda';
 @import './componentes/footer';
@@ -52,5 +53,4 @@ h2{
     @extend %titulo-principal;
 }
 
-/* CONTACTO */
 
