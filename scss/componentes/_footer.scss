@@ -6,11 +6,22 @@
     display: grid;
     background-color: $color-fondos2;
     grid-template-columns: 30% 30% 30%;
+    justify-content: space-evenly;
     font-size: 20px;
     ul{
         list-style: none;
     }
 }
+
+@media(max-width: 576px){
+    .footer-grid{
+        font-size: 16px;
+    }
+    .footer-iconos{
+        padding: 5px;
+    }
+}
+
 
 .footer-cajaredes{
     display: grid;
@@ -24,6 +35,11 @@
     justify-content: center;
     background-color: $color-fondos2;
 }
+
+.footer-iconos{
+    padding: 8px;
+}
+
 
 .iconos-metodos-pago{
     display: grid;

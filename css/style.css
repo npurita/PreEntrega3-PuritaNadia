@@ -95,12 +95,21 @@ h1 {
   display: grid;
   background-color: #e2e2e2;
   grid-template-columns: 30% 30% 30%;
+  justify-content: space-evenly;
   font-size: 20px;
 }
 .footer-grid ul {
   list-style: none;
 }
 
+@media (max-width: 576px) {
+  .footer-grid {
+    font-size: 16px;
+  }
+  .footer-iconos {
+    padding: 5px;
+  }
+}
 .footer-cajaredes {
   display: grid;
   background-color: #e2e2e2;
@@ -112,6 +121,10 @@ h1 {
   padding-bottom: 30px;
   justify-content: center;
   background-color: #e2e2e2;
+}
+
+.footer-iconos {
+  padding: 8px;
 }
 
 .iconos-metodos-pago {
