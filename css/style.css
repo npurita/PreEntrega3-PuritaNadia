@@ -94,6 +94,8 @@ h1 {
 .footer-grid {
   display: grid;
   background-color: #e2e2e2;
+  grid-template-columns: 30% 30% 30%;
+  font-size: 20px;
 }
 .footer-grid ul {
   list-style: none;
@@ -101,15 +103,32 @@ h1 {
 
 .footer-cajaredes {
   display: grid;
+  background-color: #e2e2e2;
   grid-template-columns: auto auto;
   grid-template-rows: auto;
   column-gap: 50px;
   margin-top: 20px;
-  margin-bottom: 20px;
   padding-top: 30px;
   padding-bottom: 30px;
   justify-content: center;
   background-color: #e2e2e2;
+}
+
+.iconos-metodos-pago {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: auto;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+  padding-bottom: 10px;
+  background-color: #e2e2e2;
+}
+
+h5 {
+  background-color: #e2e2e2;
+  text-align: center;
+  font-size: 12px;
 }
 
 body {
