@@ -176,9 +176,17 @@ h2 {
 
 /* NAV BAR */
 .navegacion {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  display: flex;
+  justify-content: space-evenly;
   font-size: 30px;
+}
+
+@media (max-width: 576px) {
+  .navegacion {
+    font-size: 20px;
+    justify-content: left;
+    text-align: left;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
