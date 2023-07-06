@@ -1,6 +1,7 @@
 .grid-tienda{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-evenly;
     grid-template-rows: auto;
     
 }
@@ -11,10 +12,6 @@
     }
 }
 
-.boton-ir-tienda{
-    margin: 50px;
-    padding: auto;
-}
 
 .btn-tienda{
     background-color: $color-fondos2;
@@ -26,4 +23,38 @@
         background-color: $color-fondos3;
         border-color: $color-fondos3;
     }
+}
+
+.h5-card{
+    background-color: white;
+}
+
+.tarjeta-tienda{
+    margin: 10px;
+}
+
+/* CARDS TIENDA (Index)*/
+
+.cards-tienda-index{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media(max-width: 576px){
+    .cards-tienda-index{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        justify-items: center;
+        margin: 10px;
+    }
+    .txt-card{
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+.txt-card{
+    margin: 10px;
+    font-size: 16px;
 }
