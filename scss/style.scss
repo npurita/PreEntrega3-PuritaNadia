@@ -74,4 +74,33 @@ h2{
     }
 }
 
+.btn-tienda{
+    background-color: $color-fondos2;
+    border-radius: 0;
+    border-color: $color-fondos2;
+    font-size: 20px;
+    font-weight: 300;
+    &:hover{
+        background-color: $color-fondos3;
+        border-color: $color-fondos3;
+    }
+}
+
+/* INSPIRACION (Index) */
+
+.grid-layout{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-evenly;
+}
+
+@media(max-width: 576px){
+    .grid-layout{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        justify-items: center;
+    }
+}
+
 

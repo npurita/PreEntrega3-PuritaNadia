@@ -13,17 +13,6 @@
 }
 
 
-.btn-tienda{
-    background-color: $color-fondos2;
-    border-radius: 0;
-    border-color: $color-fondos2;
-    font-size: 20px;
-    font-weight: 300;
-    &:hover{
-        background-color: $color-fondos3;
-        border-color: $color-fondos3;
-    }
-}
 
 .h5-card{
     background-color: white;
@@ -31,6 +20,7 @@
 
 .tarjeta-tienda{
     margin: 10px;
+    align-items: center;
 }
 
 /* CARDS TIENDA (Index)*/
@@ -57,4 +47,22 @@
 .txt-card{
     margin: 10px;
     font-size: 16px;
+    text-align: center;
+}
+
+.boton-tienda{
+    background-color: $color-fondos2;
+    border-color: black;
+    border-radius: 0;
+    align-items: center;
+    a:hover{
+        background-color: $color-fondos3;
+    }
+}
+
+.tarjeta-body{
+    border-color: black;
+    border-radius: 0;
+    justify-items: center;
+    align-items: center;
 }
