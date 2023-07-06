@@ -4,8 +4,8 @@
 }
 
 header {
-  background-color: #ede8e4;
-  padding-bottom: 80px;
+  background-image: url(/imagenes/fondoheader1.png);
+  padding-bottom: 90px;
 }
 header h2 {
   font-size: 30px;
