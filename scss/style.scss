@@ -22,9 +22,8 @@ a:link{
 h2{
     @extend %titulo-principal;
     font-size: 50px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-
+    margin-top: map-get($margenes, mrg-tp);
+    margin-bottom: map-get($margenes, mrg-btm);
 }
 
 @media(max-width: 576px){
@@ -98,6 +97,22 @@ h2{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
+    }
+}
+
+/* GALERIA (Inspiración) */
+
+.galeria{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    row-gap: 5px;
+    margin: 5px;
+}
+
+@media(max-width: 576px){
+    .galeria{
+        grid-template-columns: 1fr;
     }
 }
 
