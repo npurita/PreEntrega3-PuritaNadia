@@ -250,8 +250,7 @@ h2 {
 
 /* INSPIRACION (Index) */
 .grid-layout {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
   justify-content: space-evenly;
 }
 
@@ -260,7 +259,6 @@ h2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    justify-items: center;
   }
 }
 
