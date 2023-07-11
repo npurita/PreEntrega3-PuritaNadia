@@ -12,8 +12,8 @@ header h2 {
 }
 
 @media (max-width: 576px) {
-  header h1 {
-    font-size: 20px;
+  header {
+    display: none;
   }
   header h2 {
     font-size: 15px;
@@ -138,8 +138,9 @@ h1 {
 /* COLOR */
 .check-colores {
   display: flex;
+  column-gap: 20px;
+  border-radius: 0%;
   margin: 10px;
-  padding: 10px;
 }
 
 /* TIPO DE LÁMPARA */
@@ -251,9 +252,6 @@ h2 {
 @media (max-width: 576px) {
   .h2 {
     font-size: 18px;
-  }
-  .header {
-    display: none;
   }
 }
 /* TOGGLER */
