@@ -267,6 +267,7 @@ h2 {
 .navegacion {
   display: flex;
   justify-content: space-evenly;
+  background-color: #e2e2e2;
   font-size: 30px;
 }
 

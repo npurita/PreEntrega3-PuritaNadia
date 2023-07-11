@@ -48,6 +48,7 @@ h2{
 .navegacion{
     display: flex;
     justify-content: space-evenly;
+    background-color: $color-fondos2;
     font-size: 30px;
     @extend %titulo-principal;
 }
