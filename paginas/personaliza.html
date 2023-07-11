@@ -61,37 +61,62 @@
       </section>
 
 
-
     <main>
         <h2 class="h2main">Personalizá tu lámpara</h2>
         <p class="titulo-per">Color</p>
-        <div class="btn-colores">
-            <button class="color1"></button>
-            <button class="color2"></button>
-            <button class="color3"></button>
-            <button class="color4"></button>
-        </div>
+        <section class="check-colores">
+          <label for="exampleColorInput" class="form-label"></label>
+          <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#11111" title="Elegir Color">
+        </section>
 
         <p class="titulo-per">Tipo de lámpara</p>
-        <div class="btn-tipo">
-            <button class="tipo1">Velador</button>
-            <button class="tipo1">Colgante</button>
-            <button class="tipo1">De pie</button>
-            <button class="tipo1">Aplique</button>
 
-        </div>
+        <section class="radio-tipo">
+          <div class="form-check">
+            <input class="form-check-input med-check" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">Velador</label>
+          </div>
+          <div class="form-check med-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">Colgante</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">De pie</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">Aplique</label>
+          </div>
+        </section>
+         
 
         <p class="titulo-per">Medidas</p>
-        <div class="btn-medidas">
-            <button class="medida1">10x15</button>
-            <button class="medida2">20x50</button>
-            <button class="medida3">30x20</button>
+        <div class="chck-medidas">
+          <div class="form-check">
+            <input class="form-check-input med-check" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">10x15</label>
+          </div>
+          <div class="form-check med-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">20x50</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">30x20</label>
+          </div>
         </div>
 
         <p class="titulo-per">Tipo de material</p>
         <div class="btn-material">
-            <button class="mat-1">Yute</button>
-            <button class="mat-2">Hilo de Algodón</button>
+          <div class="form-check">
+            <input class="form-check-input med-check" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">Yute</label>
+          </div>
+          <div class="form-check med-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">Hilo de Algodón</label>
+          </div>
         </div>
 
 
